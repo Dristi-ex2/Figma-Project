@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: gray;
+    background-color: #C4DAD2;
+
+
+}
+#main-card1{
+    width: 500px;
+    margin-left: 60px;
+    height: 600px;
+}
+.icon{
+    height: 30px;
+    position: absolute;
+    margin-left: 450px;
+    color: gray;
+}
+
+
+.profile-img-container {
+    position: relative;
+    display: inline-block;
+}
+.tick {
+    position: absolute;
+    top: 125px; 
+    right: 5px; 
+    width: 30px; 
+    border-radius: 30px;
+}
+
+.dp{
+    height: 130px;
+    border-radius: 100px;
+    width: 130px;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+h1,p{
+    text-align: center;
+}
+h3{
+    margin-top: 30px;
+}
+.flex-card1{
+    display: flex;
+    gap: 30px;
+    margin-left: 100px;
+}
+.flex-card1 p{
+    font-size: 28px;
+    font-weight: 900;
+}
+.lorem-p{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.flex-card2{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.flex-card2 img{
+    height: 40px;
+    width: 35px;
+    border-radius: 20px;
+}
+.flex-card2-div1 img{
+    margin-left: 160px;
+
+}
+.flex-card2-div3 img{
+    width: 50px;
+
+}
+.btn1{
+    margin-left: 140px;
+    padding: 10px;
+    border-radius: 40px;
+    width: 220px;
+    margin-top: 10px;
+    background-color: white;
+    border: 1px solid gray;
+}
+.btn2{
+    margin-left: 140px;
+    padding: 10px;
+    border-radius: 40px;
+    width: 220px;
+    margin-top: 10px;
+    background-color: #41B3A2;
+    border: 1px solid #41B3A2;
+    color: white;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    column-gap: 30px;
+    margin-top: 30px;
+}
+
+#main-card1{
+    background-color: #fff;
+}
+
+#main-card2{
+    background-color: #fff;
+    width: 500px;
+
+}
+.dots-menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    cursor: pointer;
+}
